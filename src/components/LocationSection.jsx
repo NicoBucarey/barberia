@@ -5,7 +5,7 @@ export default function LocationSection() {
   return (
     <section className="py-8 px-4 bg-gray-50 border-t border-gray-200">
       <div className="max-w-md mx-auto text-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-6">
+        <h2 className="text-2xl font-bold text-gray-800 mb-6" translate="no">
           Encuéntranos
         </h2>
         
@@ -24,7 +24,7 @@ export default function LocationSection() {
         </div>
 
         {/* Dirección */}
-        <p className="text-gray-600 font-semibold mb-4">
+        <p className="text-base font-semibold text-gray-800 mb-4">
           {location}
         </p>
 

@@ -7,10 +7,10 @@ export default function ContactSection() {
   return (
     <section className="py-8 px-4 bg-white border-t border-gray-200">
       <div className="max-w-md mx-auto text-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4" translate="no">
           ¿Listo para tu nuevo corte?
         </h2>
-        <p className="text-gray-600 mb-6">
+        <p className="text-base font-normal text-gray-600 mb-6">
           Contáctanos por WhatsApp para agendar tu cita
         </p>
         <a

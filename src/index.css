@@ -69,10 +69,9 @@ body {
 }
 
 h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+h2,
+h3 {
+  color: #1f2937 !important;
 }
 
 h1 {

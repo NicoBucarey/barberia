@@ -18,7 +18,7 @@ export default function HairstyleCard({ hairstyle }) {
           />
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-bold text-gray-800 mb-2">
+          <h3 className="text-lg font-bold text-gray-800 mb-2" translate="no">
             {hairstyle.title}
           </h3>
           <p className="text-sm text-gray-600">
