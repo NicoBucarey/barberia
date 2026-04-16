@@ -27,7 +27,7 @@ export default function ImageModal({ hairstyle, isOpen, onClose }) {
 
         {/* Título */}
         <div className="p-6">
-          <h2 className="text-2xl font-bold text-black">
+          <h2 className="text-2xl font-bold text-gray-800">
             {hairstyle.title}
           </h2>
         </div>
