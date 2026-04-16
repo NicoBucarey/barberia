@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="relative w-full h-96 md:h-screen overflow-hidden">
       <img
-        src="src/assets/portada.webp"
+        src="public/portada.webp"
         alt="Portada barbería"
         className="absolute inset-0 w-full h-full object-cover"
       />
