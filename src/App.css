@@ -1,0 +1,23 @@
+/* Estilos de scroll horizontal sin barra */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Optimizar imágenes para mobile */
+img {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
