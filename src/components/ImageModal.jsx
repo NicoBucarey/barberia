@@ -7,7 +7,7 @@ export default function ImageModal({ hairstyle, isOpen, onClose }) {
       onClick={onClose}
     >
       <div 
-        className="relative bg-white rounded-lg max-w-2xl w-full max-h-96 md:max-h-screen overflow-auto"
+        className="relative bg-white rounded-lg max-w-2xl w-full"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Botón cerrar */}
@@ -22,23 +22,14 @@ export default function ImageModal({ hairstyle, isOpen, onClose }) {
         <img
           src={hairstyle.image}
           alt={hairstyle.title}
-          className="w-full h-auto object-cover"
+          className="w-full h-auto object-cover rounded-t-lg"
         />
 
-        {/* Info */}
+        {/* Título */}
         <div className="p-6">
-          <h2 className="text-3xl font-bold text-gray-800 mb-3">
+          <h2 className="text-2xl font-bold text-black">
             {hairstyle.title}
           </h2>
-          <p className="text-gray-600 text-lg mb-6">
-            {hairstyle.description}
-          </p>
-          <button
-            onClick={onClose}
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded-lg transition-colors"
-          >
-            Cerrar
-          </button>
         </div>
       </div>
     </div>
